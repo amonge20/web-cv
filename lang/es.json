@@ -1,0 +1,82 @@
+{
+    "habilidades": {
+        "titulo": "Habilidades",
+        "lista": [
+            "Microsoft Office",
+            "Resolución de incidencias de Nivel 1",
+            "Software y Hardware",
+            "Gestión de inventario",
+            "Desarrollo Web: HTML, CSS, JavaScript, MongoDB",
+            "Maquetación de sistemas operativos Windows",
+            "Gestión de servicios de IT (ITSM Remedy)"
+        ]
+    },
+    "idiomas": {
+        "titulo": "Idiomas",
+        "lista": [
+            {"nombre": "Español", "nivel": "Nativo", "imagen": "img/Bandera_de_España.svg.webp"},
+            {"nombre": "Inglés", "nivel": "B2", "imagen": "img/Bandera_de_USA.svg.webp"},
+            {"nombre": "Catalán", "nivel": "Nativo", "imagen": "img/Bandera_de_Catalonia.svg.png"}
+        ]
+    },
+    "experiencia_academica": {
+        "titulo": "Experiencia Académica",
+        "lista": [
+            {
+                "titulo": "Ciclo formativo de grado medio en sistema microinformaticos y redes.",
+                "centro": "Instituto Daniel Blanxart en Olesa de Montserrat.",
+                "año": "2017 - 2020",
+                "descripcion": "Prácticas en soporte técnico y mantenimiento de equipos informáticos. Gestión de redes locales y configuración de sistemas Windows y Linux"
+            },
+            {
+                "titulo": "Ciclo formativo de grado superior en desarrollo de aplicaciones web",
+                "centro": "Instituto de Tecnologías de la información y la Comunicación de Barcelona",
+                "año": "2020 - 2024",
+                "descripcion": "Proyecto final: Desarrollo de aplicación web con MongoDB y React. Formación en frontend, backend y gestión de base de datos"
+            }
+        ]
+    },
+    "experiencia_laboral": {
+        "titulo": "Experiencia Laboral",
+        "lista": [
+            {
+                "puesto": "Desarrollador Web",
+                "empresa": "Empresa ABC",
+                "periodo": "2023 - Actualidad",
+                "tareas": [
+                    "Desarrollo de aplicaciones web",
+                    "Mantenimiento de UI"
+                ]
+            },
+            {
+                "puesto": "Prácticas Frontend",
+                "empresa": "Empresa XYZ",
+                "periodo": "2022 - 2023",
+                "tareas": [
+                    "Maquetación y optimización responsive"
+                ]
+            },
+            {
+                "puesto": "Técnico de SOPORTE / HELP DESK",
+                "empresa": "Lemon Computer SL",
+                "periodo": "Diciembre 2024 a Septiembre 2025 (intervenciones en distintos proyectos de la Generalitat de Cataluña, total 5 meses trabajados)",
+                "tareas": [
+                    "Gestión de incidencias de Nivel 1, tanto presencial como remota",
+                    "Montaje, configuración y despliegue de estaciones de trabajo informáticas",
+                    "Instalación y configuración de sistemas operativos y entornos de usuario en Windows"
+                ]
+            }
+        ]
+    },
+    "sobre_mi": {
+        "titulo": "Sobre Mi",
+        "mi_perfil": "Persona proactiva y organizada, con interés por aprender y capacidad de trabajar en equipo. Experiencia en soporte técnico y despliegue de equipo, así como en desarrollo web y gestión de base de datos, aplicando conocimientos adquiridos en formación y prácticas.",
+        "informacion_adicional": {
+            "titulo": "Información Adicional",
+            "descripcion": "Carnet de conducir y coche propio. Disponibilidad inmediata y posibilidad de viajar"
+        }
+    },
+    "contacto": {
+        "titulo": "Contacto"
+    }
+}

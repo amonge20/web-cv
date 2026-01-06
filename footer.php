@@ -3,7 +3,7 @@
 <footer id="contacto" class="footer section">
     <div class="footer-content">
 
-        <h2>Contacto</h2>
+        <h2><?php echo $traducciones['contacto']['titulo']; ?></h2>
 
         <div class="footer-links">
 

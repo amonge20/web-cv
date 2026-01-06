@@ -8,26 +8,19 @@
         include("conexion.php");
         include("main-css.php");
     ?>
+  
 </head>
 <body>
     <?php
-        include("header.php");
-
-        $dir = "content/";
-
-        if (is_dir($dir)) {
-            $files = scandir($dir);
-
-            foreach ($files as $file) {
-                if ($file !== "." && $file !== ".." && pathinfo($file, PATHINFO_EXTENSION) === "php") {
-                    include $dir . $file;
-                }
-            }
-        }
-
-
+        include("cargar-idiomas.php");
+        include("header.php"); 
+        include("content/sobre-mi.php");
+        include("content/habilidades.php");
+        include("content/experiencia-academica.php");
+        include("content/experiencia-laboral.php");
         include("footer.php");
         include("main-js.php");
     ?>
+  
 </body>
 </html>

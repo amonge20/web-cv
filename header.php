@@ -12,9 +12,11 @@
 
     <!-- MENÚ -->
     <nav class="nav" id="nav">
-        <a href="#sobre-mi">Sobre mí</a>
-        <a href="#experiencia">Experiencia</a>
-        <a href="#contacto">Contacto</a>
+        <a href="#sobre-mi"><?php echo $traducciones['sobre_mi']['titulo']; ?></a>
+        <a href="#habilidades"><?php echo $traducciones['habilidades']['titulo']; ?></a>
+        <a href="#experiencia-academica"><?php echo $traducciones['experiencia_academica']['titulo']; ?></a>
+        <a href="#experiencia-laboral"><?php echo $traducciones['experiencia_laboral']['titulo']; ?></a>
+        <a href="#contacto"><?php echo $traducciones['contacto']['titulo'] ?></a>
     </nav>
 </header>
 
