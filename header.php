@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="css/header.css">
 
 <header class="header">
-    <div class="logo">Mi CV</div>
+    <div class="logo">Aitor Monge Santiago</div>
 
     <!-- MENÚ HAMBURGUESA -->
     <div class="menu-toggle" id="menu-toggle">
@@ -16,7 +16,6 @@
         <a href="#habilidades"><?php echo $traducciones['habilidades']['titulo']; ?></a>
         <a href="#experiencia-academica"><?php echo $traducciones['experiencia_academica']['titulo']; ?></a>
         <a href="#experiencia-laboral"><?php echo $traducciones['experiencia_laboral']['titulo']; ?></a>
-        <a href="#contacto"><?php echo $traducciones['contacto']['titulo'] ?></a>
     </nav>
 </header>
 

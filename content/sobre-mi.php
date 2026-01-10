@@ -16,7 +16,7 @@
         <!-- TEXTO -->
         <div class="about-text">
             <h2><?php echo $traducciones['sobre_mi']['titulo']; ?></h2>
-
+            <?php include("contacto.php")?>
             <p>
                 <?php echo $traducciones['sobre_mi']['mi_perfil']; ?>
             </p>

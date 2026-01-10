@@ -1,6 +1,6 @@
 #experiencia-laboral {
     padding: 60px 20px;
-    background: #fafafa;
+    background: var(--azulClaro);
 }
 
 #experiencia-laboral h2 {
@@ -19,7 +19,7 @@
     content: '';
     position: absolute;
     width: 4px;
-    background: #ccc;
+    background: white;
     top: 0;
     bottom: 0;
     left: 50%;
@@ -45,7 +45,7 @@
     position: absolute;
     width: 14px;
     height: 14px;
-    background: #333;
+    background: var(--azulOscuro);
     border-radius: 50%;
     top: 30px;
     right: -7px;
@@ -61,15 +61,27 @@
     padding: 20px;
     border-radius: 12px;
     box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.content ul {
+    margin-left: 18px;
+}
+
+.content li {
+    margin-bottom: 10px;
 }
 
 .content h3 {
     margin-bottom: 5px;
+    color: var(--azulOscuro);
 }
 
 .content span {
-    font-size: 0.9rem;
-    color: #666;
+    color: black;
+    font-weight: 600;
 }
 
 @media (max-width: 768px) {
@@ -84,7 +96,7 @@
         left: 0 !important;
     }
 
-    .timeline-item::after {
+    .timeline-item::after, .timeline-item.right::after {
         left: 13px;
     }
 }

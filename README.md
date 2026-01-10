@@ -2,7 +2,7 @@
 
 - header
 
-- footer
+- contacto
 
 - conexion
 

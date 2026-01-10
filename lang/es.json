@@ -23,7 +23,7 @@
         "titulo": "Experiencia Académica",
         "lista": [
             {
-                "titulo": "Ciclo formativo de grado medio en sistema microinformaticos y redes.",
+                "titulo": "Ciclo formativo de grado medio en sistema microinformaticos y redes",
                 "centro": "Instituto Daniel Blanxart en Olesa de Montserrat.",
                 "año": "2017 - 2020",
                 "descripcion": "Prácticas en soporte técnico y mantenimiento de equipos informáticos. Gestión de redes locales y configuración de sistemas Windows y Linux"
@@ -40,20 +40,49 @@
         "titulo": "Experiencia Laboral",
         "lista": [
             {
-                "puesto": "Desarrollador Web",
-                "empresa": "Empresa ABC",
-                "periodo": "2023 - Actualidad",
+                "puesto": "Técnico informático",
+                "empresa": "Lola Anglada",
+                "periodo": "Septiembre 2019 a Marzo 2020",
                 "tareas": [
-                    "Desarrollo de aplicaciones web",
-                    "Mantenimiento de UI"
+                    "Soporte técnico y mantenimiento informático en entornos Windows y Linux",
+                    "Gestión de inventario y control informático en cada aula"
                 ]
             },
             {
-                "puesto": "Prácticas Frontend",
-                "empresa": "Empresa XYZ",
-                "periodo": "2022 - 2023",
+                "puesto": "Programador Web",
+                "empresa": "Giroweb",
+                "periodo": "Diciembre 2022 a Mayo 2023",
                 "tareas": [
-                    "Maquetación y optimización responsive"
+                    "Desarrollo de frontend",
+                    "Gestión de base de datos con MongoDB"
+                ]
+            },
+            {
+                "puesto": "Técnico de soporte",
+                "empresa": "Sphera IT",
+                "periodo": "Junio 2023 a Octubre 2023",
+                "tareas": [
+                    "Actualización y despliegue de Windows 10 en Centros de Atención Primaria en Barcelona",
+                    "Configuración de sistemas y migración de datos entre equipos",
+                    "Gestión de inventario de ordenadores antiguos y nuevos",
+                    "Resolución presencial de incidencias de Nivel 1 a usuarios finales"
+                ]
+            },
+            {
+                "puesto": "Técnico auxiliar de informática",
+                "empresa": "Sermicro",
+                "periodo": "Julio 2024 a Agosto 2024",
+                "tareas": [
+                    "Montaje y configuración de dispositivos Samsung Smartwatch en distintos stands de El Corte Inglés"
+                ]
+            },
+            {
+                "puesto": "Técnico de campo",
+                "empresa": "NCR Voyix",
+                "periodo": "Noviembre 2024",
+                "tareas": [
+                    "Mantenimiento de cajeros automáticos y terminales de autoservicio",
+                    "Resolución de incidencias técnicas en campo"
                 ]
             },
             {
@@ -69,7 +98,7 @@
         ]
     },
     "sobre_mi": {
-        "titulo": "Sobre Mi",
+        "titulo": "Sobre Mí",
         "mi_perfil": "Persona proactiva y organizada, con interés por aprender y capacidad de trabajar en equipo. Experiencia en soporte técnico y despliegue de equipo, así como en desarrollo web y gestión de base de datos, aplicando conocimientos adquiridos en formación y prácticas.",
         "informacion_adicional": {
             "titulo": "Información Adicional",

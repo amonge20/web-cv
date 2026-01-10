@@ -4,13 +4,18 @@
     margin: auto;
 }
 
+#experiencia-academica h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
 .accordion-item {
     border-bottom: 1px solid #ddd;
 }
 
 .accordion-header {
     width: 100%;
-    background: #f5f5f5;
+    background: var(--azulOscuro);
     border: none;
     padding: 18px;
     font-size: 1.1rem;
@@ -19,10 +24,7 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-}
-
-.accordion-header:hover {
-    background: #eaeaea;
+    color: white;
 }
 
 .accordion-content {

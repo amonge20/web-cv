@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="css/custom.css">
      <?php
         include("conexion.php");
-        include("main-css.php");
     ?>
   
 </head>
@@ -19,7 +19,6 @@
         include("content/experiencia-academica.php");
         include("content/experiencia-laboral.php");
         include("footer.php");
-        include("main-js.php");
     ?>
   
 </body>

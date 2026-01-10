@@ -1,19 +1,19 @@
-// Footer JS preparado para futuras animaciones
+// contacto JS preparado para futuras animaciones
 // (no interfiere con header.js)
 
 document.addEventListener("DOMContentLoaded", () => {
-    const footer = document.getElementById("contacto");
+    const contacto = document.getElementById("contacto");
 
-    if (!footer) return;
+    if (!contacto) return;
 
     // Ejemplo: animación extra al entrar en viewport (opcional)
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
-                footer.classList.add("visible");
+                contacto.classList.add("visible");
             }
         });
     }, { threshold: 0.3 });
 
-    observer.observe(footer);
+    observer.observe(contacto);
 });

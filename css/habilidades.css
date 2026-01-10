@@ -12,15 +12,16 @@
 .carousel-track {
     display: flex;
     transition: transform 0.5s ease;
+    align-items: center;
 }
 
 /* Por defecto: móvil (1 item) */
 .carousel-item {
     flex: 0 0 100%;
     padding: 60px 20px;
-    background: #f2f2f2;
-    font-size: 1.5rem;
-    border-right: 1px solid #ddd;
+    background: var(--azulClaro);
+    font-size: 20px;
+    border-right: 1px solid white;
 }
 
 /* Tablet y escritorio: 3 items */
@@ -34,7 +35,7 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.6);
+    background: var(--azulOscuro);
     color: white;
     border: none;
     padding: 12px 18px;
