@@ -2,13 +2,34 @@
     "habilidades": {
         "titulo": "Habilidades",
         "lista": [
-            "Microsoft Office",
-            "Resolución de incidencias de Nivel 1",
-            "Software y Hardware",
-            "Gestión de inventario",
-            "Desarrollo Web: HTML, CSS, JavaScript, MongoDB",
-            "Maquetación de sistemas operativos Windows",
-            "Gestión de servicios de IT (ITSM Remedy)"
+            {
+                "nombre": "Microsoft Office",
+                "descripcion": "Uso avanzado de Word, Excel, PowerPoint y Outlook"
+            },
+            {
+                "nombre": "Resolución de incidencias de Nivel 1",
+                "descripcion": "Soporte técnico presencial y remoto a usuarios finales"
+            },
+            {
+                "nombre": "Software y Hardware",
+                "descripcion": "Instalación, mantenimiento y diagnóstico de equipos informáticos"
+            },
+            {
+                "nombre": "Gestión de inventario",
+                "descripcion": "Control y seguimiento de activos y material informático"
+            },
+            {
+                "nombre": "Desarrollo Web",
+                "descripcion": "HTML, CSS, JavaScript y MongoDB"
+            },
+            {
+                "nombre": "Maquetación de sistemas operativos Windows",
+                "descripcion": "Instalación, configuración y despliegue de entornos Windows"
+            },
+            {
+                "nombre": "Gestión de servicios de IT",
+                "descripcion": "Uso de herramientas ITSM como Remedy"
+            }
         ]
     },
     "idiomas": {
@@ -107,5 +128,8 @@
     },
     "contacto": {
         "titulo": "Contacto"
+    },
+    "footer": {
+        "descripcion": "© 2026 Todos los derechos reservados."
     }
 }

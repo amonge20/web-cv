@@ -8,7 +8,12 @@
         <div class="carousel-track">
             <?php
             foreach ($traducciones['habilidades']['lista'] as $habilidad) {
-                echo "<div class='carousel-item'>$habilidad</div>";
+                ?>
+                <div class="carousel-item">
+                    <h3><?php echo $habilidad['nombre']; ?></h3>
+                    <p><?php echo $habilidad['descripcion']; ?></p>
+                </div>
+                <?php
             }
             ?>
         </div>

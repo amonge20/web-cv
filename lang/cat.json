@@ -1,11 +1,135 @@
 {
-    "habilidades": "Habilitats",
-    "idiomas": "Idiomes",
-    "experiencia_academica": "Experiència Acadèmica",
-    "experiencia_laboral": "Experiència Laboral",
-    "sobre_mi": "Sobre Mi",
-    "contacto": "Contacte",    
-    "html": "HTML",
-    "css": "CSS",
-    "javascript": "JavaScript"
+    "habilidades": {
+        "titulo": "Habilitats",
+        "lista": [
+            {
+                "nombre": "Microsoft Office",
+                "descripcion": "Ús avançat de Word, Excel, PowerPoint i Outlook"
+            },
+            {
+                "nombre": "Resolució d'incidències de Nivell 1",
+                "descripcion": "Suport tècnic presencial i remot a usuaris finals"
+            },
+            {
+                "nombre": "Programari i Maquinari",
+                "descripcion": "Instal·lació, manteniment i diagnòstic d'equips informàtics"
+            },
+            {
+                "nombre": "Gestió d'inventari",
+                "descripcion": "Control i seguiment d'actius i material informàtic"
+            },
+            {
+                "nombre": "Desenvolupament Web",
+                "descripcion": "HTML, CSS, JavaScript i MongoDB"
+            },
+            {
+                "nombre": "Maquetació de sistemes operatius Windows",
+                "descripcion": "Instal·lació, configuració i desplegament d'entorns Windows"
+            },
+            {
+                "nombre": "Gestió de serveis IT",
+                "descripcion": "Ús d'eines ITSM com Remedy"
+            }
+        ]
+    },
+    "idiomas": {
+        "titulo": "Idiomes",
+        "lista": [
+            { "nombre": "Espanyol", "nivel": "Nadiu", "imagen": "img/Bandera_de_España.svg.webp" },
+            { "nombre": "Anglès", "nivel": "B2", "imagen": "img/Bandera_de_USA.svg.webp" },
+            { "nombre": "Català", "nivel": "Nadiu", "imagen": "img/Bandera_de_Catalonia.svg.png" }
+        ]
+    },
+    "experiencia_academica": {
+        "titulo": "Experiència Acadèmica",
+        "lista": [
+            {
+                "titulo": "Cicle formatiu de grau mitjà en sistemes microinformàtics i xarxes",
+                "centro": "Institut Daniel Blanxart d'Olesa de Montserrat.",
+                "año": "2017 - 2020",
+                "descripcion": "Pràctiques en suport tècnic i manteniment d'equips informàtics. Gestió de xarxes locals i configuració de sistemes Windows i Linux"
+            },
+            {
+                "titulo": "Cicle formatiu de grau superior en desenvolupament d'aplicacions web",
+                "centro": "Institut de Tecnologies de la Informació i la Comunicació de Barcelona",
+                "año": "2020 - 2024",
+                "descripcion": "Projecte final: Desenvolupament d'una aplicació web amb MongoDB i React. Formació en frontend, backend i gestió de bases de dades"
+            }
+        ]
+    },
+    "experiencia_laboral": {
+        "titulo": "Experiència Laboral",
+        "lista": [
+            {
+                "puesto": "Tècnic informàtic",
+                "empresa": "Lola Anglada",
+                "periodo": "Setembre 2019 a Març 2020",
+                "tareas": [
+                    "Suport tècnic i manteniment informàtic en entorns Windows i Linux",
+                    "Gestió d'inventari i control informàtic a cada aula"
+                ]
+            },
+            {
+                "puesto": "Programador Web",
+                "empresa": "Giroweb",
+                "periodo": "Desembre 2022 a Maig 2023",
+                "tareas": [
+                    "Desenvolupament de frontend",
+                    "Gestió de bases de dades amb MongoDB"
+                ]
+            },
+            {
+                "puesto": "Tècnic de suport",
+                "empresa": "Sphera IT",
+                "periodo": "Juny 2023 a Octubre 2023",
+                "tareas": [
+                    "Actualització i desplegament de Windows 10 en Centres d'Atenció Primària de Barcelona",
+                    "Configuració de sistemes i migració de dades entre equips",
+                    "Gestió d'inventari d'ordinadors antics i nous",
+                    "Resolució presencial d'incidències de Nivell 1 a usuaris finals"
+                ]
+            },
+            {
+                "puesto": "Tècnic auxiliar d'informàtica",
+                "empresa": "Sermicro",
+                "periodo": "Juliol 2024 a Agost 2024",
+                "tareas": [
+                    "Muntatge i configuració de dispositius Samsung Smartwatch en diferents estands d'El Corte Inglés"
+                ]
+            },
+            {
+                "puesto": "Tècnic de camp",
+                "empresa": "NCR Voyix",
+                "periodo": "Novembre 2024",
+                "tareas": [
+                    "Manteniment de caixers automàtics i terminals d'autoservei",
+                    "Resolució d'incidències tècniques en camp"
+                ]
+            },
+            {
+                "puesto": "Tècnic de SUPORT / HELP DESK",
+                "empresa": "Lemon Computer SL",
+                "periodo": "Desembre 2024 a Setembre 2025 (intervencions en diferents projectes de la Generalitat de Catalunya, total 5 mesos treballats)",
+                "tareas": [
+                    "Gestió d'incidències de Nivell 1, presencials i remotes",
+                    "Muntatge, configuració i desplegament d'estacions de treball informàtiques",
+                    "Instal·lació i configuració de sistemes operatius i entorns d'usuari en Windows"
+                ]
+            }
+        ]
+    },
+    "sobre_mi": {
+        "titulo": "Sobre Mi",
+        "mi_perfil": "Persona proactiva i organitzada, amb interès per aprendre i capacitat de treballar en equip. Experiència en suport tècnic i desplegament d'equips, així com en desenvolupament web i gestió de bases de dades.",
+        "informacion_adicional": {
+            "titulo": "Informació Addicional",
+            "descripcion": "Carnet de conduir i vehicle propi. Disponibilitat immediata i possibilitat de viatjar"
+        }
+    },
+    "contacto": {
+        "titulo": "Contacte"
+    },
+    "footer": {
+        "descripcion": "© 2026 Tots els drets reservats."
+    }
 }

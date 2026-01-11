@@ -1,11 +1,135 @@
 {
-    "habilidades": "Skills",
-    "idiomas": "Languages",
-    "experiencia_academica": "Academic Experience",
-    "experiencia_laboral": "Work Experience",
-    "sobre_mi": "About Me",
-    "contacto": "Contact",
-    "html": "HTML",
-    "css": "CSS",
-    "javascript": "JavaScript"
+    "habilidades": {
+        "titulo": "Skills",
+        "lista": [
+            {
+                "nombre": "Microsoft Office",
+                "descripcion": "Advanced use of Word, Excel, PowerPoint, and Outlook"
+            },
+            {
+                "nombre": "Level 1 Incident Resolution",
+                "descripcion": "On-site and remote technical support for end users"
+            },
+            {
+                "nombre": "Software and Hardware",
+                "descripcion": "Installation, maintenance, and troubleshooting of computer equipment"
+            },
+            {
+                "nombre": "Inventory Management",
+                "descripcion": "Control and tracking of IT assets and equipment"
+            },
+            {
+                "nombre": "Web Development",
+                "descripcion": "HTML, CSS, JavaScript, and MongoDB"
+            },
+            {
+                "nombre": "Windows Operating System Deployment",
+                "descripcion": "Installation, configuration, and deployment of Windows environments"
+            },
+            {
+                "nombre": "IT Service Management",
+                "descripcion": "Use of ITSM tools such as Remedy"
+            }
+        ]
+    },
+    "idiomas": {
+        "titulo": "Languages",
+        "lista": [
+            { "nombre": "Spanish", "nivel": "Native", "imagen": "img/Bandera_de_España.svg.webp" },
+            { "nombre": "English", "nivel": "B2", "imagen": "img/Bandera_de_USA.svg.webp" },
+            { "nombre": "Catalan", "nivel": "Native", "imagen": "img/Bandera_de_Catalonia.svg.png" }
+        ]
+    },
+    "experiencia_academica": {
+        "titulo": "Academic Background",
+        "lista": [
+            {
+                "titulo": "Intermediate Vocational Training in Microcomputer Systems and Networks",
+                "centro": "Daniel Blanxart Institute in Olesa de Montserrat.",
+                "año": "2017 - 2020",
+                "descripcion": "Internship in technical support and computer maintenance. Management of local networks and configuration of Windows and Linux systems"
+            },
+            {
+                "titulo": "Advanced Vocational Training in Web Application Development",
+                "centro": "Institute of Information and Communication Technologies of Barcelona",
+                "año": "2020 - 2024",
+                "descripcion": "Final project: Web application development using MongoDB and React. Training in frontend, backend, and database management"
+            }
+        ]
+    },
+    "experiencia_laboral": {
+        "titulo": "Work Experience",
+        "lista": [
+            {
+                "puesto": "IT Technician",
+                "empresa": "Lola Anglada",
+                "periodo": "September 2019 to March 2020",
+                "tareas": [
+                    "Technical support and IT maintenance in Windows and Linux environments",
+                    "Inventory management and IT control in classrooms"
+                ]
+            },
+            {
+                "puesto": "Web Developer",
+                "empresa": "Giroweb",
+                "periodo": "December 2022 to May 2023",
+                "tareas": [
+                    "Frontend development",
+                    "Database management using MongoDB"
+                ]
+            },
+            {
+                "puesto": "Support Technician",
+                "empresa": "Sphera IT",
+                "periodo": "June 2023 to October 2023",
+                "tareas": [
+                    "Windows 10 deployment and upgrades in Primary Healthcare Centers in Barcelona",
+                    "System configuration and data migration between devices",
+                    "Management of old and new computer inventory",
+                    "On-site resolution of Level 1 incidents for end users"
+                ]
+            },
+            {
+                "puesto": "Assistant IT Technician",
+                "empresa": "Sermicro",
+                "periodo": "July 2024 to August 2024",
+                "tareas": [
+                    "Assembly and configuration of Samsung Smartwatch devices in various El Corte Inglés stores"
+                ]
+            },
+            {
+                "puesto": "Field Technician",
+                "empresa": "NCR Voyix",
+                "periodo": "November 2024",
+                "tareas": [
+                    "Maintenance of ATMs and self-service terminals",
+                    "On-site resolution of technical incidents"
+                ]
+            },
+            {
+                "puesto": "SUPPORT / HELP DESK Technician",
+                "empresa": "Lemon Computer SL",
+                "periodo": "December 2024 to September 2025 (interventions in different projects for the Government of Catalonia, total of 5 months worked)",
+                "tareas": [
+                    "Level 1 incident management, both on-site and remote",
+                    "Assembly, configuration, and deployment of workstations",
+                    "Installation and configuration of Windows operating systems and user environments"
+                ]
+            }
+        ]
+    },
+    "sobre_mi": {
+        "titulo": "About Me",
+        "mi_perfil": "Proactive and organized person with a strong willingness to learn and the ability to work in a team. Experience in technical support and equipment deployment, as well as web development and database management.",
+        "informacion_adicional": {
+            "titulo": "Additional Information",
+            "descripcion": "Driving license and own vehicle. Immediate availability and willingness to travel"
+        }
+    },
+    "contacto": {
+        "titulo": "Contact"
+    },
+    "footer": {
+        "descripcion": "© 2026 All rights reserved."
+    }
 }

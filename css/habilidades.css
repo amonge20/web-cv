@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+#habilidades h2 {
+    margin-bottom: 20px;
+}
+
 .carousel {
     position: relative;
     width: 100%;
@@ -12,25 +16,58 @@
 .carousel-track {
     display: flex;
     transition: transform 0.5s ease;
-    align-items: center;
+    align-items: stretch;
 }
 
-/* Por defecto: móvil (1 item) */
+/* ITEM DEL CARRUSEL */
 .carousel-item {
     flex: 0 0 100%;
-    padding: 60px 20px;
+    padding: 60px 30px;
     background: var(--azulClaro);
-    font-size: 20px;
     border-right: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    text-align: center;
 }
 
-/* Tablet y escritorio: 3 items */
-@media (min-width: 768px) {
+/* MÓVIL: 1 item visible, dejamos espacio para las flechas */
+@media (max-width: 767px) {
     .carousel-item {
-        flex: 0 0 33.3333%;
+        padding-left: 80px;  /* espacio para la flecha izquierda */
+        padding-right: 80px; /* espacio para la flecha derecha */
     }
 }
 
+/* TABLET/ESCRITORIO: 3 items, sin padding extra */
+@media (min-width: 768px) {
+    .carousel-item {
+        flex: 0 0 33.3333%;
+        padding-left: 20px;  /* padding normal */
+        padding-right: 20px; /* padding normal */
+    }
+}
+
+
+/* TÍTULO DE LA HABILIDAD */
+.carousel-item h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+/* DESCRIPCIÓN */
+.carousel-item p {
+    font-size: 15px;
+    line-height: 1.5;
+    opacity: 0.85;
+    margin: 0;
+    max-width: 280px;
+    margin-inline: auto;
+}
+
+/* BOTONES */
 .carousel-btn {
     position: absolute;
     top: 50%;
@@ -50,4 +87,26 @@
 
 .carousel-btn.next {
     right: 20px;
+}
+
+@media (hover: hover) {
+    .carousel-item:hover {
+        background: #dbeeff;
+    }
+}
+
+.carousel-item h3,
+.carousel-item p {
+    animation: fadeUp 0.6s ease both;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(8px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
