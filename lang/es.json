@@ -1,4 +1,9 @@
 {
+    "idiomas": {
+        "es": "Español",
+        "en": "English",
+        "cat": "Català"
+    },
     "habilidades": {
         "titulo": "Habilidades",
         "lista": [
@@ -35,9 +40,9 @@
     "idiomas": {
         "titulo": "Idiomas",
         "lista": [
-            {"nombre": "Español", "nivel": "Nativo", "imagen": "img/Bandera_de_España.svg.webp"},
-            {"nombre": "Inglés", "nivel": "B2", "imagen": "img/Bandera_de_USA.svg.webp"},
-            {"nombre": "Catalán", "nivel": "Nativo", "imagen": "img/Bandera_de_Catalonia.svg.png"}
+            {"nombre": "Español", "nivel": "Nativo", "imagen": "img/es.png"},
+            {"nombre": "Inglés", "nivel": "B2", "imagen": "img/en.png"},
+            {"nombre": "Catalán", "nivel": "Nativo", "imagen": "img/cat.png"}
         ]
     },
     "experiencia_academica": {

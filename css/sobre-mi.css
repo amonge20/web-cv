@@ -90,6 +90,11 @@
     animation: modalFade 0.3s ease;
 }
 
+
+.about-modal-content h3 {
+    margin-bottom: 10px;
+}
+
 .about-close {
     position: absolute;
     top: 10px;
@@ -118,5 +123,9 @@
 
     .about-image img {
         margin: auto;
+    }
+
+    .about-text p {
+        margin-inline: 20px;
     }
 }

@@ -1,4 +1,9 @@
 {
+    "idiomas": {
+        "es": "Spanish",
+        "en": "English",
+        "cat": "Catalan"
+    },
     "habilidades": {
         "titulo": "Skills",
         "lista": [
@@ -35,9 +40,9 @@
     "idiomas": {
         "titulo": "Languages",
         "lista": [
-            { "nombre": "Spanish", "nivel": "Native", "imagen": "img/Bandera_de_España.svg.webp" },
-            { "nombre": "English", "nivel": "B2", "imagen": "img/Bandera_de_USA.svg.webp" },
-            { "nombre": "Catalan", "nivel": "Native", "imagen": "img/Bandera_de_Catalonia.svg.png" }
+            { "nombre": "Spanish", "nivel": "Native", "imagen": "img/es.png" },
+            { "nombre": "English", "nivel": "B2", "imagen": "img/en.png" },
+            { "nombre": "Catalan", "nivel": "Native", "imagen": "img/cat.png" }
         ]
     },
     "experiencia_academica": {
